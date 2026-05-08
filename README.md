@@ -10,6 +10,7 @@
 - [04_Справочник_конфигураций.md](04_Справочник_конфигураций.md) - комментированные конфиги Kafka, Kafka Connect, TLS, ACL, PostgreSQL, Prometheus и Grafana.
 - [05_Режимы_работы_и_сценарии.md](05_Режимы_работы_и_сценарии.md) - подробное описание режимов работы Kafka, producer, consumer, Kafka Connect, хранения данных и прикладных сценариев на Python.
 - [06_Troubleshooting_Apache_Kafka.md](06_Troubleshooting_Apache_Kafka.md) - технический runbook диагностики Kafka: симптомы, проверки, причины и исправления.
+- [07_Production_Readiness_Apache_Kafka.md](07_Production_Readiness_Apache_Kafka.md) - production-like checklist: quorum, replication, partitions, retention, security, monitoring и эксплуатационные проверки.
 
 Конфиги в руководствах и справочнике комментируются в одном формате: назначение параметра, возможные значения и влияние изменения на поведение Kafka, клиента или внешней интеграции.
 
