@@ -1,0 +1,85 @@
+# Local editor and workspace files
+.idea/
+.vscode/
+.codex
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python package/build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.truststore
+*.keystore
+*.csr
+*.srl
+
+# Logs, runtime state, and temporary files
+*.log
+*.pid
+*.out
+*.err
+logs/
+tmp/
+temp/
+.cache/
+
+# Kafka local runtime data and downloaded distributions
+kafka-logs/
+kraft-combined-logs/
+metadata-log/
+__consumer_offsets-*/
+kafka_*.tgz
+kafka_*.tar.gz
+*.tgz
+*.tar.gz
+
+# Local database/runtime data for practical procedures
+postgres-data/
+pgdata/
+prometheus-data/
+grafana-data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports and large local exports
+reports/
+artifacts/
+*.csv
+*.jsonl
+*.parquet
